@@ -23,4 +23,4 @@ MicroService Architecture에서 각 서비스는 작고 독립적이며 느슨�
   * 독립된 구조로 인해 통합적인 유지관리가 어려워질 수 있음
 <br>
 
-[참조1](https://velog.io/@tedigom/MSA-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-1-MSA%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90-3sk28yrv0e),[참조2](https://martinfowler.com/articles/microservices.html),[참조3](https://gruuuuu.github.io/cloud/architecture-microservice/)
+[참조1](https://velog.io/@tedigom/MSA-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-1-MSA%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90-3sk28yrv0e) - MSA 제대로 이해하기 -(1) MSA의 기본 개념 / tedigom <br>[참조2](https://martinfowler.com/articles/microservices.html) - Microservices / martinfowler.com <br>[참조3](https://gruuuuu.github.io/cloud/architecture-microservice/) - MicroService Architecture란? / 호롤리한 하루
