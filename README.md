@@ -10,3 +10,7 @@
 ## SPRING
 * Spring
   * [DI](https://github.com/zeroempty2/TIL/blob/main/SPRING/DI.md)
+
+## OS
+* Process vs Thread
+  * [Process vs Thread](https://github.com/zeroempty2/TIL/blob/main/OS/Process vs Thread.md)
