@@ -13,4 +13,4 @@
 
 ## OS
 * Process vs Thread
-  * [Process vs Thread](https://github.com/zeroempty2/TIL/blob/main/OS/Process vs Thread.md)
+  * [Process vs Thread](https://github.com/zeroempty2/TIL/blob/main/OS/Process%20vs%20Thread.md)
