@@ -21,4 +21,4 @@
 
 ## JAVA
 * POJO
-    *[POJO정리](https://github.com/zeroempty2/TIL/blob/main/JAVA/POJO.md)
+  * [POJO정리](https://github.com/zeroempty2/TIL/blob/main/JAVA/POJO.md)
