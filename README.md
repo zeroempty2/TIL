@@ -18,3 +18,7 @@
 ## NETWORK
 * TCP와 UDP
   * [TCP와 UDP의 특징 및 차이점](https://github.com/zeroempty2/TIL/blob/main/NETWORK/TCP와UDP.md)
+
+## JAVA
+* POJO
+    *[POJO정리](https://github.com/zeroempty2/TIL/blob/main/JAVA/POJO.md)
