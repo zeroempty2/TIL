@@ -3,6 +3,9 @@
 * Index
   * [Index정리](https://github.com/zeroempty2/TIL/blob/main/DATABASE/Index.md)
 
+* Transaction
+  * [Transaction정리](https://github.com/zeroempty2/TIL/blob/main/DATABASE/Transaction.md)
+
 ## MSA
 * MSA
   * [MSA기초정리](https://github.com/zeroempty2/TIL/blob/main/MSA/MSA.md)
