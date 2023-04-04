@@ -25,3 +25,7 @@
 ## JAVA
 * POJO
   * [POJO정리](https://github.com/zeroempty2/TIL/blob/main/JAVA/POJO.md)
+
+## ALGORITHM
+* 선형 자료구조
+  * [배열(Array), 링크드 리스트(linked list), 스택(Stack), 큐(Queue)](https://github.com/zeroempty2/TIL/blob/main/ALGORITHM/POJO.md)
