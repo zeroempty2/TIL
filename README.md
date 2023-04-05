@@ -27,7 +27,7 @@
   * [POJO정리](https://github.com/zeroempty2/TIL/blob/main/JAVA/POJO.md)
 
 * 오버로딩,오버라이딩
-  * [오버로딩과 오버라이딩의 차이](https://github.com/zeroempty2/TIL/blob/main/JAVA/Overloading,Overriding.md)
+  * [오버로딩과 오버라이딩의 차이](https://github.com/zeroempty2/TIL/blob/main/JAVA/Overloading%20vs%20Overriding.md)
 
 ## ALGORITHM
 * 선형 자료구조
