@@ -1,8 +1,8 @@
 # TIL
 ## 데이터베이스
 * Index
-  * [Index정리](https://github.com/zeroempty2/TIL/blob/main/DATABASE/Index.md)
-  * [Index의 구조](https://github.com/zeroempty2/TIL/blob/main/DATABASE/Index%20data%20structure.md)
+  * [Index정리](https://github.com/zeroempty2/TIL/blob/main/DATABASE/Index/Index.md)
+  * [Index의 구조](https://github.com/zeroempty2/TIL/blob/main/DATABASE/Index/Index%20data%20structure.md)
 
 * Transaction
   * [Transaction정리](https://github.com/zeroempty2/TIL/blob/main/DATABASE/Transaction.md)
