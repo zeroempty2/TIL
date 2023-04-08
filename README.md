@@ -3,7 +3,7 @@
 * Index
   * [Index정리](https://github.com/zeroempty2/TIL/blob/main/DATABASE/Index/Index.md)
   * [Index의 구조](https://github.com/zeroempty2/TIL/blob/main/DATABASE/Index/Index%20data%20structure.md)
-  * [Primary Key와 Clustered Index](https://github.com/zeroempty2/TIL/blob/main/DATABASE/Clustered%20Index.md)
+  * [Primary Key와 Clustered Index](https://github.com/zeroempty2/TIL/blob/main/DATABASE/Index/Clustered%20Index.md)
 
 * Transaction
   * [Transaction정리](https://github.com/zeroempty2/TIL/blob/main/DATABASE/Transaction.md)
