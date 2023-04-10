@@ -37,3 +37,5 @@
 * 선형 자료구조
   * [배열(Array), 링크드 리스트(linked list), 스택(Stack), 큐(Queue)](https://github.com/zeroempty2/TIL/blob/main/ALGORITHM/선형%20자료구조%20-%20배열(Array)%2C%20링크드%20리스트(linked%20list)%2C%20스택(Stack)%2C%20큐(Queue).md)
 
+## OOP
+  * [OOP 정리](https://github.com/zeroempty2/TIL/blob/main/OOP/OOP.md)
