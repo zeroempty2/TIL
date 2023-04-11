@@ -25,7 +25,8 @@
   * [TCP와 UDP의 특징 및 차이점](https://github.com/zeroempty2/TIL/blob/main/NETWORK/TCP와UDP.md)
 * CORS
   * [CORS 정리](https://github.com/zeroempty2/TIL/blob/main/NETWORK/CORS.md)
-
+* REST API
+  * [REST API 정리](https://github.com/zeroempty2/TIL/blob/main/NETWORK/REST%20API.md)
 ## JAVA
 * POJO
   * [POJO정리](https://github.com/zeroempty2/TIL/blob/main/JAVA/POJO.md)
