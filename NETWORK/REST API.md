@@ -5,7 +5,7 @@ REST의 원칙을 지키면서 API의 의미를 표현하고 쉽고, 파악하�
 
 <br>
 
-## REST 구성 요소
+## ▶️ REST 구성 요소
 REST는 다음과 같은 3가지로 구성이 되어있다. <br>
 자원(Resource) : HTTP URI<br>
 자원에 대한 행위(Verb) : HTTP Method<br>
