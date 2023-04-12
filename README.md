@@ -27,6 +27,8 @@
   * [CORS 정리](https://github.com/zeroempty2/TIL/blob/main/NETWORK/CORS.md)
 * REST API
   * [REST API 정리](https://github.com/zeroempty2/TIL/blob/main/NETWORK/REST%20API.md)
+* HTTPS
+  * [HTTPS란?](https://github.com/zeroempty2/TIL/blob/main/NETWORK/HTTPS.md)
 ## JAVA
 * POJO
   * [POJO정리](https://github.com/zeroempty2/TIL/blob/main/JAVA/POJO.md)
