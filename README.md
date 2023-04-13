@@ -42,3 +42,4 @@
 
 ## OOP
   * [OOP 정리](https://github.com/zeroempty2/TIL/blob/main/OOP/OOP.md)
+  * [SOLID 원칙](https://github.com/zeroempty2/TIL/blob/main/OOP/SOLID.md)
