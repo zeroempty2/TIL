@@ -90,7 +90,7 @@ class Main {
 ClassName이란 객체를 생성할 때 <> 안에 타입 파라미터(Type parameter)를 지정한다.<br>
 a는 String 타입을 지정하고 String값인 "10"을 set 해줬고 , b는 Integer 타입을 지정하고 Integer값인 10을 넣어주었다.<br>
 이때, 둘의 값은 같은 10이 나오지만 타입을 출력해보면 각각 String, Integer이 나오는 것을 볼 수 있다.<br>
-![image](https://user-images.githubusercontent.com/117061586/232072307-a88cfa59-b1eb-44a3-9aea-0ac749bcf7e2.png)
+![image](https://user-images.githubusercontent.com/117061586/232072307-a88cfa59-b1eb-44a3-9aea-0ac749bcf7e2.png)<br>
 이렇게 외부 클래스에서 제네릭 클래스를 생성할 때 <> 괄호 안에 타입을 파라미터로 보내 제네릭 타입을 지정해주는 것이 제네릭 프로그래밍이다.<br>
 
 3. 제네릭 메소드<br>
@@ -153,7 +153,7 @@ class ClassName<E> {
 ```
 파라미터 타입에 따라 T 타입이 결정되는 genericMethod()를 추가했다.<br>
 반환값은 다음과 같다.<br>
-![image](https://user-images.githubusercontent.com/117061586/232075285-2f2c27fe-5548-4dee-b8d9-14f5ba9d92ae.png)
+![image](https://user-images.githubusercontent.com/117061586/232075285-2f2c27fe-5548-4dee-b8d9-14f5ba9d92ae.png)<br>
 제네릭 메소드는 클래스에서 지정한 제네릭유형과 별도로 메소드에서 독립적으로 제네릭 유형을 선언하여 쓸 수 있다.<br>
 
 그렇다면 제네릭 메소드는 왜 제네릭 클래스와 별도로 독립적인 제네릭이 사용될까?<br>
