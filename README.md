@@ -36,6 +36,9 @@
 * 오버로딩,오버라이딩
   * [오버로딩과 오버라이딩의 차이](https://github.com/zeroempty2/TIL/blob/main/JAVA/Overloading%20vs%20Overriding.md)
 
+* 제네릭
+  * [제네릭이란?](https://github.com/zeroempty2/TIL/blob/main/JAVA/Generic.md)
+
 ## ALGORITHM
 * 선형 자료구조
   * [배열(Array), 링크드 리스트(linked list), 스택(Stack), 큐(Queue)](https://github.com/zeroempty2/TIL/blob/main/ALGORITHM/선형%20자료구조%20-%20배열(Array)%2C%20링크드%20리스트(linked%20list)%2C%20스택(Stack)%2C%20큐(Queue).md)
