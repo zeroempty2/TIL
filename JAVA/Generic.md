@@ -184,13 +184,15 @@ class ClassName<E> {
 보통 이해하기 쉽게 다음과 같이 부른다.<br>
  extends T : 상한 경계<br>
 ? super T : 하한 경계<br>
-<?> : 와일드 카드(Wild card)<br>
+'<?>' : 와일드 카드(Wild card)<br>
 
 <br>
 이 때 주의해야 할 게 있다. K extends T와 ? extends T는 비슷한 구조지만 차이점이 있다.<br>
 '유형 경계를 지정'하는 것은 같으나 경계가 지정되고 K는 특정 타입으로 지정이 되지만, ?는 타입이 지정되지 않는다는 의미다.<br>
+	
+<br>
 
-* <K extends T>, <? extends T><br>
+* ```<K extends T>,<? extends T>``` <br>
 이 것은 T 타입을 포함한 자식(자손) 타입만 가능하다는 의미다.<br>
 대표적인 예로는 제네릭 클래스에서 수를 표현하는 클래스만 받고 싶은 경우가 있다. 대표적인 Integer, Long, Byte, Double, Float, Short 같은 래퍼 클래스들은 Number 클래스를 상속 받는다.<br>
 즉,  Integer, Long, Byte, Double, Float, Short 같은 수를 표현하는 래퍼 클래스만으로 제한하고 싶은 경우 다음과 같이 쓸 수 있다.<br>
@@ -200,7 +202,7 @@ public class ClassName <K extends Number> { ... }
 ```
 <br>
 
-* <K super T>, <? super T><br>
+* ```<K super T>, <? super T>```<br>
 T 타입의 부모(조상) 타입만 가능하다는 의미다. 즉, 다음과 같은 경우들이 있다.<br>
 
  ```java
@@ -218,7 +220,9 @@ T 타입의 부모(조상) 타입만 가능하다는 의미다. 즉, 다음과 �
 예로들어 '과일'이라는 클래스가 있고 이 클래스를 각각 상속받는 '사과'클래스와 '딸기'클래스가 있다고 가정해보자.<br>
 이 때 각각의 사과와 딸기는 종류가 다르지만, 둘 다 '과일'로 보고 자료를 조작해야 할 수도 있다. (예로들면 과일 목록을 뽑는다거나 등등..) 그럴 때 '사과'를 '과일'로 캐스팅 해야 하는데, 과일이 상위 타입이므로 업캐스팅을 해야한다. 이럴 때 쓸 수 있는 것이 바로 super라는 것이다.<br>
 
-* <?> (와일드 카드 : Wild Card)<br>
+<br>
+
+* ```<?> (와일드 카드 : Wild Card)```<br>
 와일드 카드 <?> 은 <? extends Object> 와 마찬가지다. Object는 자바에서의 모든 API 및 사용자 클래스의 최상위 타입이다.<br>
 
 ```java
