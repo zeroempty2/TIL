@@ -29,6 +29,8 @@
   * [REST API 정리](https://github.com/zeroempty2/TIL/blob/main/NETWORK/REST%20API.md)
 * HTTPS
   * [HTTPS란?](https://github.com/zeroempty2/TIL/blob/main/NETWORK/HTTPS.md)
+* OSI 7 계층
+  * [OSI 7 계층 정리](https://github.com/zeroempty2/TIL/blob/main/NETWORK/OSI%207%20Layer.md)
 ## JAVA
 * POJO
   * [POJO정리](https://github.com/zeroempty2/TIL/blob/main/JAVA/POJO.md)
