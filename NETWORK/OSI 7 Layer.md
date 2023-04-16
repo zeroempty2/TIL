@@ -16,7 +16,7 @@
 각 계층은 상하 계급 구조를 가지고 있다.<br>
 상위 계층의 프로토콜이 제대로 동작하기 위해서는 하위의 모든 계층에 문제가 없어야 한다.<br>
 물리 계층 : 하드웨어 /  데이터링크 계층 : 하드웨어 + 소프트웨어 / 3 계층부터는 소프트웨어로 구성<br>
-![image](https://user-images.githubusercontent.com/117061586/232315122-9dba849a-3ed0-425e-993a-87387d405115.png)<br>
+<img src="https://user-images.githubusercontent.com/117061586/232315122-9dba849a-3ed0-425e-993a-87387d405115.png" width="400" height="300"/> <br>
 [이미지 출처] - '데이터 통신', 오창환 저, 한국 학술정보(주)
 
 
@@ -36,7 +36,7 @@
 ## 2 계층 : 데이터 링크 계층(DataLink Layer)
 ![image](https://user-images.githubusercontent.com/117061586/232315353-1fa0dbf6-c462-4d08-8d3c-56e19c8d4e12.png)<br>
 [이미지 출처 - OSI 7 계층 (OSI 7 Layer) / 무작정 개발](https://backendcode.tistory.com/167)<br>
-* 물리계층을 통해 송수신되는 정보의 오류와 흐름을 관리하여 안전한통신의 흐름을 관리<br>
+* 물리계층을 통해 송수신되는 정보의 오류와 흐름을 관리하여 안전한 통신의 흐름을 관리<br>
 * 프레임에 물리적 주소(MAC address)를 부여하고 에러검출, 재전송, 흐름제어를 수행<br>
 * 이 계층에서 전송되는 단위 : 프레임(Frame)<br>
 * 장비 : 브리지, 스위치, 이더넷 등(여기서 MAC주소를 사용)<br>
