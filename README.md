@@ -31,7 +31,7 @@
   * [HTTPS란?](https://github.com/zeroempty2/TIL/blob/main/NETWORK/HTTPS.md)
 * OSI 7 계층
   * [OSI 7 계층 정리](https://github.com/zeroempty2/TIL/blob/main/NETWORK/OSI/OSI%207%20Layer.md)
-  * [TCP/IP 4 계층 정리](https://github.com/zeroempty2/TIL/blob/main/NETWORK/OSI/TCP&IP%204%20Layer.md)
+  * [TCP/IP 4 계층 정리](https://github.com/zeroempty2/TIL/blob/main/NETWORK/OSI/TCP%26IP%204%20Layer.md)
 ## JAVA
 * POJO
   * [POJO정리](https://github.com/zeroempty2/TIL/blob/main/JAVA/POJO.md)

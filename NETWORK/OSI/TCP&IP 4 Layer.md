@@ -156,7 +156,7 @@ TCP/IP 4계층은,  애플리케이션 계층, 전송 계층, 인터넷 계층, 
 * 보낼 패킷의 TCP 헤더를 채우기 위해, 클라이언트와 구글 웹서버 간 TCP 연결을 한다.(3-Way Handshaking)<br>
 * 보낼 패킷이 완성되었으므로, www.google.com 에 패킷을 전송하고, HTML 을 응답받는다.<br>
 * 클라이언트는 응답 받은 HTML 을 브라우저에 띄운다.<br>
-* 클라이언트와 구글 웹서버간 TCP 연결을 종료합니다.(4-Way Handshaking)<br>
+* 클라이언트와 구글 웹서버간 TCP 연결을 종료한다.(4-Way Handshaking)<br>
 
 
 <br>
