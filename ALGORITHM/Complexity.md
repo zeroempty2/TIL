@@ -33,7 +33,7 @@
 
 <br>
 
-![image](https://user-images.githubusercontent.com/117061586/232772289-2d94f4d9-8463-4841-b105-1b04970c1e08.png)<br>
+<img src="https://user-images.githubusercontent.com/117061586/232772289-2d94f4d9-8463-4841-b105-1b04970c1e08.png" width="400" height="300"/> <br>
 [이미지 출처 - 시간 복잡도, 공간 복잡도 / minam.log](https://velog.io/@cha-suyeon/Algorithm-%EC%8B%9C%EA%B0%84-%EB%B3%B5%EC%9E%A1%EB%8F%84-%EA%B3%B5%EA%B0%84-%EB%B3%B5%EC%9E%A1%EB%8F%84)<br>
 
 <br>
