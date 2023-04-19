@@ -88,6 +88,97 @@ slower로 갈수록(즉, 오른쪽 방향으로 갈수록) 효율성이 떨어�
 
 <br>
 
+## ▶️ 시간 복잡도 예제
+다음과 같이 숫자로 이루어진 배열이 있을 때, 이 배열 내에서 가장 큰 수를 반환해야한다고 한다.<br>
+[3, 5, 6, 1, 2, 4]<br>
+
+이 문제를 두가지 유형으로 풀어보았다.<br>
+
+<br>
+
+```java
+ public int findMaxNum(int[] numArray){
+   int maxNum = 0;
+   for (int i : numArray) {
+     if (maxNum < i) {
+       maxNum = i;
+     }
+   }
+   return maxNum;
+ }
+```
+첫번째는, 배열의 가장 큰 수를 저장할 변수를 만들고, 배열을 돌면서 그 변수와 비교하는 방식이다. <br>
+
+<br>
+
+```java
+  public int findMaxNum(int[] numArray){
+    int maxNum = numArray[0];
+    for (int i : numArray) {
+      maxNum = i;
+      for(int j : numArray){
+        if(i < j){
+         maxNum = j;
+        }
+      }
+    }
+  return maxNum;
+  }
+```
+
+두번째는, 배열의 가장 큰 수를 저장한 변수를 만드나, 변수와 값을 비교하지 않고, 배열의 값끼리 일일히 비교하는 방식이다. <br>
+실제로는 이렇게 풀지 않겠지만, 시간 복잡도를 비교하기 위해 이렇게 만들어 보았다. <br>
+
+<br>
+그렇다면, 위의 함수가 시간이 얼마나 걸리는지 어떻게 분석할 수 있을까?<br>
+각 줄이 실행되는 걸 1번의 연산이 된다고 생각하고 계산하시면 된다.<br>
+첫번째 함수는 아래와 같이 계산 해 볼 수 있다.<br>
+
+```java
+ public int findMaxNum(int[] numArray){
+   int maxNum = numArray[0]; // 대입 연산 1번 실행
+   for (int i : numArray) { // array 의 길이만큼 아래 연산이 실행
+     if (maxNum < i) { // 비교 연산 1번 실행
+       maxNum = i; // 대입 연산 1번 실행
+     }
+   }
+   return maxNum;
+ }
+```
+위에서 연산 된 것들을 더해보면,<br>
+1. maxNum 대입연산 1번<br>
+2. array의 길이 X (비교 연산 1번 + 대입 연산 1번)<br> 
+만큼의 시간이 필요하다.  array 의 길이를 N이라고 하면, 다음과 같이 표현 할 수 있다.<br> 
+```
+1 + 2 x N = 2N + 1
+```
+이때, 매번 코드를 매 실행 단위로 이렇게 몇 번의 연산이 발생하는지 확인하는 건 불가능하기때문에. 상수는 신경쓰지않고, 입력값에 비례해서 어느 정도로 증가하는지만 파악하면 된다.<br> 
+따라서 첫번째 함수는 N의 시간 복잡도를 가지고 있다. <br> 
+
+두번째 함수는 얼마만큼의 시간 복잡도를 가지고 있을까? <br> 
+
+```java
+  public int findMaxNum(int[] numArray){
+    int maxNum = numArray[0]; // 대입 연산 1번 실행
+    for (int i : numArray) { // array 의 길이만큼 아래 연산이 실행
+      maxNum = i; // 대입 연산 1번 실행
+      for(int j : numArray){ // array 의 길이만큼 아래 연산이 실행
+        if(i < j){ // 비교 연산 1번 실행
+         maxNum = j; // 대입 연산 1번 실행
+        }
+      }
+    }
+  return maxNum;
+  }
+```
+상수를 신경쓰지 않고, 입력값(array)의 길이만 계산하면,<br>
+```
+N x N = N^2
+```
+두번째 함수는 N^2의 시간복잡도를 가지고 있다.
+
+
+
 ## ▶️ 출처 및 참조
 [참조1](https://madplay.github.io/post/time-complexity-space-complexity) - 시간복잡도와 공간복잡도(Time Complexity Space Complexity) / MadPlay! <br>
 [참조2](https://velog.io/@cha-suyeon/Algorithm-%EC%8B%9C%EA%B0%84-%EB%B3%B5%EC%9E%A1%EB%8F%84-%EA%B3%B5%EA%B0%84-%EB%B3%B5%EC%9E%A1%EB%8F%84) - 시간 복잡도, 공간 복잡도 / minam.log<br>
