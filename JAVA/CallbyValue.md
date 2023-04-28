@@ -5,7 +5,7 @@ Call by Value는 함수의 인자를 전달할 때 '값을 전달하는 방식'�
 
 <br>
 
-##  Call by Value
+## ▶️ Call by Value
 Call by Value 는 메서드를 호출할 때 값을 넘겨주기 때문에 Pass by Value 라고도 부른다.<br>
 메서드를 호출하는 호출자 (Caller) 의 변수와 호출 당하는 수신자 (Callee) 의 파라미터는 복사된 서로 다른 변수이다.<br>
 값만을 전달하기 때문에 수신자의 파라미터를 수정해도 호출자의 변수에는 아무런 영향이 없다.<br>
@@ -13,7 +13,7 @@ Call by Value 는 메서드를 호출할 때 값을 넘겨주기 때문에 Pass 
 
 <br>
 
-## Call by Reference
+## ▶️ Call by Reference
 Call by Reference 는 참조 (주소) 를 직접 전달하며 Pass By Reference 라고도 부른다.<br>
 참조를 직접 넘기기 때문에 호출자의 변수와 수신자의 파라미터는 완전히 동일한 변수이다.<br>
 메서드 내에서 파라미터를 수정하면 그대로 원본 변수에도 반영된다.<br>
@@ -21,7 +21,7 @@ Call by Reference 는 참조 (주소) 를 직접 전달하며 Pass By Reference 
 
 <br>
 
-## 자바는 Call by Value
+## ▶️ 자바는 Call by Value
 Java 는 오직 Call by Value 로만 동작한다.<br>
 예시를 들어보자<br>
 ```java
@@ -73,7 +73,7 @@ class Person{
 그 이유는 자바의 Reference Type에 있다.<br>
 <br>
 
-## Reference Type의 동작 원리
+## ▶️ Reference Type의 동작 원리
 자바에서는 Call by Value 방식을 수행할 때, 값을 넘겨받은 메소드에서값을 복사하여 새로운 지역 변수에 저장한다. 이 때 Method2는
 Method1의 변수를 사용한 것이 아니라, 자신이 새롭게 생성한 지역 변수에 Method1의 변수 이름과 변수 값을 복사하여 사용하는 것이다.<br>
 이 때문에 아무리 Method2에서 A와 B의 값을 바꾸어도 Method1의 A, B에게 영향을 끼칠 수 없다.<br>
@@ -93,5 +93,6 @@ Method1의 변수를 사용한 것이 아니라, 자신이 새롭게 생성한 �
 
 <br>
 
+## ▶️ 참조
 [참조1](https://bcp0109.tistory.com/360) - Java 의 Call by Value, Call by Reference / 뱀귤 블로그 <br>
 [참조2](https://velog.io/@ahnick/Java-Call-by-Value-Call-by-Reference) - Call by Value, Call by Reference / ahnick.log <br>
