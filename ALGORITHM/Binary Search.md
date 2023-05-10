@@ -53,7 +53,7 @@
     
     public int binarySearch(int[] array,int start, int end, int mid, int target, int count){
       if(array[mid] == target){
-        System.out.println("탐색을 위해 " + count + "번 더 탐색했습니다!"); 
+        System.out.println("탐색을 위해 " + count + "번 더 반복했습니다!"); 
         return array[mid];
       }
       else if(array[mid] <= target) {
