@@ -57,6 +57,7 @@ priorityQueue.clear();      // priorityQueue에 초기화
 .poll()을 하면 다음과 같은 과정을 거쳐 삭제된다.<br>
 ![image](https://github.com/zeroempty2/TIL/assets/117061586/10c312fe-83ff-4ef8-b1a1-c9b4c577692e)<br>
 [출처 - PriorityQueue(우선순위 큐) 클래스 사용법 & 예제 총정리/ 코딩팩토리](https://coding-factory.tistory.com/603)<br>
+즉, poll 메서드를 사용하면 기본적으로 루트 노드가 오름차순 정렬이 된다. <br>
 
 <br>
 
@@ -68,8 +69,52 @@ Priority Queue에서 우선순위가 가장 높은 값을 참조하고 싶다면
 
 <br>
 
+## ▶️ Priority Queue의 정렬
+Priority Queue는 Comparable 인터페이스를 구현하지 않으면 poll 메서드를 이용해 값을 꺼낼때 기본적으로 오름차순 정렬을 해 꺼내준다.<br>
+
+```java
+    PriorityQueue<Integer> pq = new PriorityQueue<>();
+    pq.offer(1);
+    pq.offer(4);
+    pq.offer(2);
+    pq.offer(3);
+    while(!pq.isEmpty()){
+        System.out.println(pq.poll());
+    }
+```
+위와 같이 구현했을때, 오름차순으로 값을 꺼내주는 것을 볼 수 있다.<br>
+![image](https://github.com/zeroempty2/TIL/assets/117061586/4a9f6534-80de-4779-bafc-895fb92fd867)<br>
+
+그렇다면, 우선순위 큐는 poll을 할때 모든 노드를 오름차순으로 정렬을 할까?<br>
+
+```java
+  PriorityQueue<Integer> pq = new PriorityQueue<>();
+      pq.offer(3);
+      pq.offer(4);
+      pq.offer(2);
+      pq.offer(10);
+      pq.offer(8);
+      pq.offer(5);
+      pq.offer(6);
+      pq.offer(9);
+      pq.offer(7);
+      pq.offer(1);
+      
+      while(!pq.isEmpty()){
+        System.out.println(pq.poll());
+        System.out.println(pq);
+    }
+```
+위와 같이 구현했을때, 다음과 같은 결과값이 나오는 것을 볼 수 있다.<br>
+![image](https://github.com/zeroempty2/TIL/assets/117061586/1acdccc4-ae31-4439-a89e-b7715e07ef7c)<br>
+정확한 트리는 모르겠지만, System.out.println(pq)로 인해 출력되어 나오는 우선순위 큐의 첫번째 루트 노드를 봤을때, 첫번째 루트 노드는 오름차순으로 정렬이 되어서 나오지만, 다른 노드들은 정렬이 되지 않는 것을 볼 수 있다.<br>
+즉, 우선순위 큐는 모든 노드를 정렬해 가지고 있지 않고, 루트 노드만을 정렬해 가지고 있는 것을 알 수 있다.<br>
+
+
+<br>
+
 
 ## ▶️ 출처 및 참조
 [참조1](https://coding-factory.tistory.com/603) - PriorityQueue(우선순위 큐) 클래스 사용법 & 예제 총정리/ 코딩팩토리 <br>
-[참조2](https://satisfactoryplace.tistory.com/39) - 이분 탐색(Binaray Search) / 만족<br>
-[참조3](https://m42-orion.tistory.com/69) - 이분 탐색(Binary Search) / while(true) { continue; }
+[참조2](https://haenny.tistory.com/358) - 자바 우선순위 큐(Priority Queue)의 클래스 사용하기 / Haenny<br>
+[참조3](https://sskl660.tistory.com/93) - 우선순위 큐(Priority Queue) / TH
