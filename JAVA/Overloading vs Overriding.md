@@ -45,14 +45,14 @@ public class OverloadingTest {
 
 <br>
 
-## 오버로딩(Overloading)
+## 오버라이딩(Overriding)
 > 상속 관계에 있는 클래스 간에 같은 이름의 메소드를 정의하는 기술이다.<br>
 만약 자식클래스가 부모클래스에서 선언된 것과 같은 메소드를 가질때, 메소드 오버라이딩이라고 한다.<br>
 
 
 <br>
 
-## 오버로딩(Overloading)의 특징
+##  ▶️ 오버라이딩(Overriding)의 특징
 * 오버라이드 하고자 하는 메소드가 상위 클래스에 존재해야한다.<br>
 * 메소드 이름이 같아야 한다.<br>
 * 메소드 파라미터 개수, 파라미터의 자료형이 같아야 한다.<br>
@@ -62,7 +62,7 @@ public class OverloadingTest {
 
 <br>
 
-## 오버로딩(Overloading)예제
+## 오버라이딩(Overriding)예제
 추상클래스 Car와 그를 상속받는 Audi가 있다고 하자.
 ```java
 public abstract class Car {
