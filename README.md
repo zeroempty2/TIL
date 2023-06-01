@@ -32,6 +32,7 @@
 * OSI
   * [OSI 7 계층 정리](https://github.com/zeroempty2/TIL/blob/main/NETWORK/OSI/OSI%207%20Layer.md)
   * [TCP/IP 4 계층 정리](https://github.com/zeroempty2/TIL/blob/main/NETWORK/OSI/TCP%26IP%204%20Layer.md)
+
 ## JAVA
 * POJO
   * [POJO정리](https://github.com/zeroempty2/TIL/blob/main/JAVA/POJO.md)
@@ -44,6 +45,7 @@
 
 * [Call by Value와 Call By Reference](https://github.com/zeroempty2/TIL/blob/main/JAVA/CallbyValue.md)
 
+* [추상클래스와 인터페이스](https://github.com/zeroempty2/TIL/blob/main/JAVA/추상클래스와%20인터페이스.md)
 
 ## ALGORITHM
 * 자료구조
@@ -52,6 +54,7 @@
   * [해시(Hash)](https://github.com/zeroempty2/TIL/blob/main/ALGORITHM/Hash.md)
 * [시간 복잡도, 공간 복잡도](https://github.com/zeroempty2/TIL/blob/main/ALGORITHM/Complexity.md)
 * [이분탐색](https://github.com/zeroempty2/TIL/blob/main/ALGORITHM/Binary%20Search.md)
+
 ## OOP
   * [OOP 정리](https://github.com/zeroempty2/TIL/blob/main/OOP/OOP.md)
   * [SOLID 원칙](https://github.com/zeroempty2/TIL/blob/main/OOP/SOLID.md)
