@@ -49,6 +49,7 @@
 
 * JVM
   * [JVM의 구조](https://github.com/zeroempty2/TIL/blob/main/JAVA/JVM의%20구조.md)
+  * [Garbage Collection](https://github.com/zeroempty2/TIL/blob/main/JAVA/Garbage%20Collection.md)
 
 ## ALGORITHM
 * 자료구조
